@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ebuynow *.css
+recursive-include ebuynow *.csv
+recursive-include ebuynow *.html
+recursive-include ebuynow *.ico
+recursive-include ebuynow *.js
+recursive-include ebuynow *.json
+recursive-include ebuynow *.md
+recursive-include ebuynow *.png
+recursive-include ebuynow *.py
+recursive-include ebuynow *.svg
+recursive-include ebuynow *.txt
+recursive-exclude ebuynow *.pyc
