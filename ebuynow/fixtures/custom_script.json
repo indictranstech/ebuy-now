@@ -1,0 +1,11 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Product Rating", 
+  "modified": "2016-01-25 20:10:26.934519", 
+  "name": "Product Rating-Client", 
+  "script": "cur_frm.fields_dict['product_feature'].get_query = function(doc) {\n\treturn {\n\t\tfilters: {\n\t\t\t\"sku_number\": doc.sku_number\n\t\t}\n\t}\n}", 
+  "script_type": "Client"
+ }
+]
